@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata Idola - Daniel Caesar</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        background: #ffffff;
+        width: 360px;
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        overflow: hidden;
+        text-align: center;
+        transition: 0.4s;
+    }
+
+    .card:hover {
+        transform: scale(1.03);
+    }
+
+    .header {
+        background: linear-gradient(135deg, #2193b0, #6dd5ed);
+        padding: 30px 20px;
+        color: white;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-top: -60px;
+        border: 5px solid white;
+        object-fit: cover;
+        background: #e0f7ff;
+    }
+
+    .content {
+        padding: 20px;
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+    }
+
+    .content h3 {
+        text-align: center;
+        color: #2c5364;
+        margin-top: 5px;
+    }
+
+    .reason {
+        background: #e6f7ff;
+        padding: 12px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px;
+        color: #777;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="header">
+        <h1>My Favorite Artist 💙</h1>
+    </div>
+
+    <!-- Foto Kartun Daniel Caesar --><br /><br /><br />
+    <img src="https://www.udiscovermusic.com/wp-content/uploads/2023/01/Daniel-Caesar-Do-You-Like-Me-2.jpg" 
+         alt="Kartun Daniel Caesar" 
+         class="profile-img">
+
+    <div class="content">
+        <h3>Daniel Caesar</h3>
+
+        <p><b>Nama Lengkap:</b> Ashton Dumar Norwill Simmonds</p>
+        <p><b>Nama Panggung:</b> Daniel Caesar</p>
+        <p><b>Umur:</b> 29 tahun (lahir 5 April 1995)</p>
+        <p><b>Tempat, Tanggal Lahir:</b> Oshawa, Ontario, Kanada – 5 April 1995</p>
+        <p><b>Pekerjaan:</b> Penyanyi & Penulis Lagu</p>
+        <p><b>Genre:</b> R&B, Soul, Gospel</p>
+        <p><b>Lagu Terkenal:</b> Best Part, Get You, Always</p>
+
+        <div class="reason">
+            <b>Alasan Mengidolakan:</b><br>
+            Saya mengidolakan Daniel Caesar karena musiknya tenang enak juga di denger, 
+            penuh perasaan, dan punya makna yang dalem. 
+            Suaranya lembut tapi kuat secara emosional
+        
+        </div>
+    </div>
+
+    <footer>
+        Created with blue calm vibes ✨
+    </footer>
+</div>
+
+</body>
+</html>
